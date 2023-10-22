@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class GenericMethod {
     public static void main(String[] args) {
 
+
         Integer[] intArr={2,3,8,99,55};
         Double[] doubleArr={1.3,35.6,99.9,0.5};
         String[] stringArr={"Java","generics","hayatımızı","kolaylaştırır"};
@@ -64,6 +65,7 @@ public class GenericMethod {
         System.out.print("-----------------"+value);
         System.out.println();
     }
+
 
 
 

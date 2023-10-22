@@ -7,7 +7,7 @@ public class RunnerGeneric {
     public static void main(String[] args) {
 
         //Generic yapılarda hangi data tipini kullanacağımıza sonradan karar verebiliriz.
-        // Java 7den sonra sağ tarafta data tipini yazmaya gerek kalmadı.
+        //Java 7den sonra sağ tarafta data tipini yazmaya gerek kalmadı.
         GenericProduct <String> book = new GenericProduct<>();
         book.setCode("advjava");
         String str = book.getCode(); //CTE vermedi, CAST problemi çözüldü.
