@@ -64,6 +64,8 @@ class Brackets2{
         for (int i=1;i<6;i++){
             System.out.println(i);
 
+        //bekletip akışı görmek için sleep yapıldı
+
             try {
                 Thread.sleep(50);
             } catch (InterruptedException e) {

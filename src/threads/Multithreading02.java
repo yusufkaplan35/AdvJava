@@ -2,7 +2,7 @@ package threads;
 
 public class Multithreading02 {
 
-    public static int counter=0;
+    public volatile static int counter=0;
 
     public static void main(String[] args) {
 

@@ -17,4 +17,5 @@ public class GenericInterfaceImplString implements GenericInterface <String>{
     public String get(Integer x) {
         return null;
     }
+
 }
